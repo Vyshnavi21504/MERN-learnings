@@ -101,3 +101,26 @@ console.log(Calculator.add(2,3));
 
 
 //getters and setters
+class Employee{
+    #salary;
+    consuctor(name,salary){
+        this.name = name
+        this.#salary = salary
+    }
+    get salary(){
+        return `You are not allowed to see salary`;
+    }
+    set salary(value){
+        if(value < 0){
+            console.error("Invalid Salary");
+        }else{
+            this.#salary = value;
+        }
+    }
+}
+let emp = new Employee("Alice" , -3000);
+console.log(emp.salary);
+emp.salary = 5000;
+console.log(emp.salary);
+//output: You are not allowed to see salary
+//output: You are not allowed to see salary 
