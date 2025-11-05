@@ -1,0 +1,4 @@
+meaning of basic termonologies
+1)asynchronous
+2)closures
+3)promises
