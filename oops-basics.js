@@ -123,4 +123,4 @@ console.log(emp.salary);
 emp.salary = 5000;
 console.log(emp.salary);
 //output: You are not allowed to see salary
-//output: You are not allowed to see salary 
+//output: You are not allowed to see salary localStorage.getItem('tasks') 
