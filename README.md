@@ -1,0 +1,1 @@
+This repo contains files and folders related to my MERN learning journey
